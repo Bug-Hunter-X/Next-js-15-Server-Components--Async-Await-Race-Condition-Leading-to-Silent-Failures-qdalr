@@ -1,0 +1,3 @@
+# Next.js 15 Server Components: Async/Await Race Condition
+
+This repository demonstrates a subtle bug in Next.js 15 server components involving asynchronous operations and race conditions.  The issue is particularly tricky to debug because it might not produce clear error messages in the console. The bug manifests as unexpected rendering behavior or silent failures when fetching deeply nested data.
